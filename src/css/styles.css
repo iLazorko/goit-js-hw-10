@@ -33,9 +33,6 @@ body {
   width: 400px;
 }
 
-/* .item:not(:last-child) {
-} */
-
 .wrap {
   display: flex;
 }
