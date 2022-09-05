@@ -1,0 +1,10 @@
+<div class='elements'>
+  <img class='flags' src='{{flags.svg}}' alt='country flag {{name}}' />
+  <p class='text'>{{name}}</p>
+</div>
+
+<ul>
+  <li><p><b>Capital:</b> {{capital}}</p></li>
+  <li><p><b>Population:</b> {{population}}</p></li>
+  <li><p><b>languages:</b> {{#each languages}}{{nativeName}} {{/each}}</p></li>
+</ul>
